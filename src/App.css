@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color: #4C956C;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(255, 203, 119, 0.45) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255, 203, 119, 0.45) 1px, transparent 1px);
 }
 
 .App-logo {
@@ -38,5 +41,14 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -.2rem, 0);
   }
 }
