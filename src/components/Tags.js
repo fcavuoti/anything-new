@@ -11,7 +11,12 @@ const NAME_TO_COLOR = {
     "bootstrap": theme.cuBlue,
     "mysql": theme.silk,
     "python": theme.mediumGray,
-    "embed api": theme.shaftBlue
+    "embed api": theme.shaftBlue,
+    "pytorch": theme.twtBlue,
+    "BERT": theme.cuBlue,
+    "clustering": theme.red,
+    "graph theory": theme.specBlue,
+    "figma": theme.shaftBlue
 }
 
 const TagWrapper = styled.div`

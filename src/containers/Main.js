@@ -273,6 +273,13 @@ const Main = () => {
                     <ProjectsTitle>work</ProjectsTitle>
                     <ProjectsWrapper>
                         <ProjectCard 
+                            title="the doordle" img={shaftlogo}
+                            color={props => props.theme.shaftBlue}
+                            details="designed and built a wordle-style game for doordash"
+                            url="https://doordash.columbiaspectator.com"
+                            tagNames={["figma", "javascript", "react", "mongodb"]}
+                        />
+                        <ProjectCard 
                             title="theShaft" img={shaftlogo}
                             color={props => props.theme.shaftBlue}
                             details="providing the Columbia community with real time info about housing options"
@@ -280,7 +287,7 @@ const Main = () => {
                             tagNames={["javascript", "react", "bootstrap", "mysql"]}
                         />
                         <ProjectCard
-                            title="Columbia Spectator" img={cds}
+                            title="Columbia Daily Spectator" img={cds}
                             details="largest independent student-run daily media publication on campus"
                             url="https://columbiaspectator.com"
                             tagNames={["javascript", "react", "node", "pagebuilder"]}
@@ -296,6 +303,12 @@ const Main = () => {
                             details="aggregating 200+ student organizations and clubs on campus"
                             url="https://lionclubs.info"
                             tagNames={["javascript", "python", "embed api"]}
+                        />
+                        <ProjectCard
+                            title="QuAD" color={props => props.theme.darkGreen}
+                            details="automating affinity diagramming with large language models"
+                            url="https://lionclubs.info"
+                            tagNames={["python", "pytorch", "BERT", "graph theory", "clustering"]}
                         />
                     </ProjectsWrapper>
                     <ScrollBox className="center">scroll to see more</ScrollBox>
